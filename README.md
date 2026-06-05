@@ -17,37 +17,6 @@ This repository covers the full Java learning path — from Core Java fundamenta
 
 ---
 
-## 📁 Repository Structure
-
-```
-nisum-java-training/
-│
-├── 01-basic-java/
-│   ├── encapsulation-inheritance/
-│   ├── abstraction-polymorphism/
-│   ├── lang-package/
-│   ├── exception-handling/
-│   ├── multithreading/
-│   ├── collections-framework/
-│   ├── file-handling/
-│   └── design-patterns/
-│
-├── 02-intermediate-java/
-│   ├── jdbc/
-│   ├── servlet-jsp/
-│   └── others/
-│
-├── 03-hibernate/
-│   └── student-course-orm/
-│
-├── 04-spring/
-│   └── spring-mvc-web-app/
-│
-└── README.md
-```
-
----
-
 ## 🔵 Module 1 — Basic Java
 
 ### 📌 Encapsulation & Inheritance
@@ -147,38 +116,3 @@ nisum-java-training/
 | JPA | Java Persistence API |
 | JSP / Servlet | Web UI layer |
 | Git | Version control |
-
----
-
-## 🚀 How to Run
-
-### Prerequisites
-- Java 11+
-- MySQL
-- Apache Tomcat (for Servlet/JSP/Spring modules)
-- Maven (for Spring module)
-
-### Steps
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/nisum-java-training.git
-
-# 2. Navigate to any module
-cd nisum-java-training/01-basic-java/multithreading
-
-# 3. Compile and run
-javac Main.java
-java Main
-```
-
-For web modules (Servlet/Spring):
-```bash
-# Deploy WAR to Tomcat or run via Maven
-mvn spring-boot:run
-```
-
----
-
-## 📄 License
-MIT License

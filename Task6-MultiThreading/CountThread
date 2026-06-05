@@ -1,0 +1,25 @@
+class CountThread extends Thread {
+    private String name;
+    private int count;
+
+    public CountThread(String name, int count) {
+        this.name = name;
+        this.count = count;
+    }
+
+    @Override
+    public void run() {
+        System.out.println(name + " has started execution.");
+
+        for (int i = count; i >= 1; i--) {
+            System.out.println(name + " countdown: " + i);
+            try {
+                Thread.sleep(1000); // Sleep for 1 second
+            } catch (InterruptedException e) {
+                System.err.println(name + " was interrupted: " + e.getMessage());
+            }
+        }
+
+        System.out.println(name + " has finished execution.");
+    }
+}

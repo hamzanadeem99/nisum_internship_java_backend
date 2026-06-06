@@ -12,10 +12,10 @@
             jdbc:mysql://localhost:3306/electronics_warehouse_db
         </property>
         <property name="hibernate.connection.username">
-            hanadeem
+            your_username
         </property>
         <property name="hibernate.connection.password">
-            Pakistan@123
+            your_password
         </property>
         <property name="hibernate.dialect">
             org.hibernate.dialect.MySQLDialect
